@@ -6,11 +6,11 @@ This largely uses the library detailed here:  https://github.com/lavron/micropyt
 
 Connections are:
 
-* Pico                DFPlayer Mini
-* GP0 / UART TX       2 / RX
-* GP1 / UART RX.      3 / TX
-* GP36 / 3V3OUT       1 / VCC
-* GP23 / GND.         7 / GND            (note - this can be any ground on pico / either of the grounds on DFPlayer)
+* Pico                 DFPlayer Mini
+* GP0 / UART TX        2 / RX
+* GP1 / UART RX        3 / TX
+* GP36 / 3V3OUT        1 / VCC
+* GP23 / GND           7 / GND         (note - this can be any ground on pico / either of the grounds on DFPlayer)
 
 
 Then pins 4 / 5 on DFPLayer go to left / right on outputs (I'm connecting up to amplifier via an audio jack) and 10 to ground on jack.
