@@ -16,3 +16,5 @@ Connections are:
 Then pins 4 / 5 on DFPLayer go to left / right on outputs (I'm connecting up to amplifier via an audio jack) and 10 to ground on jack.
 
 Audio files are saved to the micro SD card with names like 0001.mp3 / 0002.mp3 (as in exactly this format - 4 numbers with the leading zeroes).  Apparently you can then add text after the numbers, but I haven't tried this.  The numbering defines the playing order.
+
+The example code here just plays through the tracks I have on my SD card (10 in all), and only plays the first 2 minutes of each as a test. 
